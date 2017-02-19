@@ -28,7 +28,8 @@
 		"*.beam",
 		".DS_Store",
 		".tags",
-		"*.log"
+		"*.log",
+		"coverage/index.html"
 	],
 	"folder_exclude_patterns":
 	[
@@ -50,17 +51,18 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Package Control",
 		"Vintage"
 	],
+	"rulers":
+	[
+		100
+	],
 	"scroll_past_end": false,
-	"soda_classic_tabs": true,
 	"tab_size": 2,
 	"theme": "Spacegray Eighties.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"wide_caret": true,
 	"word_separators": "./\\()\"'-:,.;<>~@#$%^&*|+=[]{}`~",
-	"word_wrap": false,
-  "rulers": [100]
+	"word_wrap": false
 }
